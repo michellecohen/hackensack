@@ -11,6 +11,17 @@ body {
   font-size: auto;
 }
 
+.top{
+  width: 18%;
+  height: 60px;
+  float: left;
+  background-color: black;
+  color: white;
+  border-color: none;
+  font-size: 2em;
+}
+/*MAKE THIS AN ICON*/
+
 .logo {
   height: 90px;
   width: 100%;
