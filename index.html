@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Pavanam' rel='stylesheet' type='text/css'/>
+  <title>White Manna</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<body>
+  
+  <div class="heading">
+    <button id="about">ABOUT</button>
+    <div class="logo">
+      <img style="height: 60px; width: auto;" src="./images/logo_trans.png">
+      <p style="padding: 0; margin: 0;">HACKENSACK, NJ</p>
+    </div>
+  </div>
+
+  <div class="parallax"></div>
+
+  <div class="about">
+    <div class="address">
+      <h3>LOCATION</h3>
+      <p>358 River St. 
+      <br> 
+      Hackensack, NJ</p>    
+
+
+      <div id="map"></div>
+      <script>
+      function initMap() {
+        var uluru = {lat: 40.8892138, lng: -74.0385598};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2gF_3Vj2tiMXueNnqbxvXn74vgbg2jj4&callback=initMap">
+    </script>
+
+    </div>
+
+    <div class="hours">
+      <h3>PHONE</h3>
+      <p>(201)-342-0914</p>
+      <br>
+      <h3>
+        HOURS
+      </h3>
+      <table>
+        <tr>
+          <td>Monday:</td>
+          <td>8am-9pm</td>
+        </tr>
+        <tr>
+          <td>Tuesday:</td>
+          <td>8:30am-9pm</td>
+        </tr>
+        <tr>
+          <td>Wednesday:</td>
+          <td>8:30am-9pm</td>
+        </tr>
+        <tr>
+          <td>Thursday:</td>
+          <td>8am-11:30pm</td>
+        </tr>
+        <tr>
+          <td>Friday:</td>
+          <td>8am-11:30pm</td>
+        </tr>
+        <tr>
+          <td>Saturday:</td>
+          <td>8am-11:30pm</td>
+        </tr>
+        <tr>
+          <td>Sunday:</td>
+          <td>10am-5:30pm</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="parallaxb"></div>
+  <div>
+    
+  </div>
+
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
+<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>

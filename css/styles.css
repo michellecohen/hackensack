@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Pavanam);
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  background-color: black;
+  font-family: 'Pavanam', sans-serif;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  font-size: auto;
+}
+
+.logo {
+  height: 90px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+}
+
+.about {
+  height:300px; 
+  background-color: black; 
+  max-width: 700px; 
+  margin: 0 auto;
+}
+.address {
+  float: left;
+  width: 50%;
+  padding-top: 1em;
+  margin: 0 auto;
+}
+
+#map {
+  width: 90%;
+  height: 200px;
+  background-color: grey;
+  margin: 5%;
+}
+
+.hours {
+  width: 50%;
+  float: right;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: .5em;
+}
+
+h3,p {
+  margin:.25em; 
+}
+
+table {
+  margin: 0 auto;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/color_night2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: left;
+}
+.parallaxb {
+    /* The image used */
+    background-image: url("../images/closeup_burgers.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: left;
+}
+
